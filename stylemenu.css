@@ -1,0 +1,47 @@
+*{
+	box-sizing: border-box;
+}
+
+html{
+	height: 100%;
+
+}
+
+body{
+	font-family:'Anton', sans-serif;
+
+}
+
+.verticalmenuh1 { 
+	width:50%;
+	height:100vh;
+	float:left;
+	background-color: #b5cd38;
+	padding-top:7em;
+	text-decoration: none;
+ }
+
+ .horizontalmenuh1 { 
+	width:50%;
+	height:100vh;
+	float:right;
+	background-color: #f44334;
+	padding-top:7em;
+	text-decoration: none;
+
+ }
+
+ h1{
+ 	color: whitesmoke;
+ 	
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    margin-top: 7em;
+    width: 60%;
+    padding:1em;
+ }
+
+ a{
+ 	text-decoration: none;
+ }

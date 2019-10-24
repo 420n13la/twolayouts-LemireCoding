@@ -1,0 +1,9 @@
+body{
+	background-color: rgb(55, 139, 46);
+}
+
+#menu{
+    width: 18%;
+    float: left;
+    height: 100vh;
+}
