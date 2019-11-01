@@ -17,8 +17,9 @@ body{
 	height:100vh;
 	float:left;
 	background-color: #b5cd38;
-	padding-top:7em;
+	padding-top:12em;
 	text-decoration: none;
+	
  }
 
  .horizontalmenuh1 { 
@@ -26,22 +27,73 @@ body{
 	height:100vh;
 	float:right;
 	background-color: #f44334;
-	padding-top:7em;
+	padding-top:12em;
 	text-decoration: none;
 
  }
+/*---------------------   VERTICAL -----------------*/
+ a{
+ 	text-decoration: none;
+ 	color:#f44334;
+ }
 
- h1{
- 	color: whitesmoke;
- 	
+.borderver h1{
+	color: #f44334;
+}
+
+.borderver{
     margin-left: auto;
     margin-right: auto;
     text-align:center;
-    margin-top: 7em;
+    margin-top: 9em;
     width: 60%;
     padding:1em;
+	border: 6px solid  #f44334;
+	border-radius: 40px;
+}
+
+.borderver:hover{
+	border: 10px dashed #f44334; 
+	color:#f44334;
+}
+
+.borderver:visited{
+	text-decoration: none;
+	color:#f44334;
+	border-style: dashed;
+}
+
+/*--------------------------- Horizontal --------------------*/
+
+
+a{
+ 	text-decoration: none;
+ 	color: #b5cd38;
  }
 
- a{
- 	text-decoration: none;
- }
+.borderhor h1{
+	color: #b5cd38;
+}
+
+.borderhor{
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    margin-top: 9em;
+    width: 60%;
+    padding:1em;
+	border: 6px solid #b5cd38;
+	border-radius: 40px;
+	
+}
+
+.borderhor:hover{
+	border: 10px dashed #b5cd38; 
+	color: #b5cd38;
+}
+
+.borderhor:visited{
+	text-decoration: none;
+	color: #b5cd38;
+	border-style: dashed;
+}

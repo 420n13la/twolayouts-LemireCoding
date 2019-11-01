@@ -1,3 +1,70 @@
 body{
-	background-color: rgb(167, 56, 62);
+	background-color:rgb(255, 103, 91);
+	font-family:'Anton', sans-serif;
+}
+
+#wrapperbody{
+	width: 80em;
+	background-color:  #f44334 ;
+	margin-left: auto;
+	margin-right:auto;
+	height: 100%;
+	border-top:0px solid #f44334;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.logo{
+
+	display:flex;
+	
+	justify-content: center;
+
+}
+
+header{
+	height:225px;
+	border:3px solid rgb(209, 231, 93);
+	border-bottom: none;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	background-color:  #f44334 ;
+}
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  	width: 80em;
+  	margin-left: 103px;
+
+}
+
+nav {
+	background-color: rgb(255, 141, 132);
+	padding:10px;
+	text-align: center;
+	border:3px solid rgb(209, 231, 93);
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	   
+    
+}
+nav a{
+    font-size: 20px;
+	word-spacing: 2em;
+	text-decoration:none;
+	text-transform: none;
+	border:3px solid rgb(209, 231, 93);
+	border-radius: 15px;
+	padding: 3px;
+	color: rgb(209, 231, 93);
+
+}
+
+
+
+
+#wrappermain{
+	padding: 2%;
 }
