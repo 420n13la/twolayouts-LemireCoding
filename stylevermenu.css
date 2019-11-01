@@ -10,6 +10,7 @@ body{
 	background-color:  rgb(230, 249, 141);
     color: #f44334;
     font-family:'Anton', sans-serif;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	}
 
 
